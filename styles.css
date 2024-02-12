@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+#container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+ 
+#bands li {
+  padding: 25px;
+  list-style-position: inside;
+  border-bottom: 1px solid gray;
+  border-inline: none;
+}
+ 
+#bands li:last-child {
+  border-bottom: none;
+}
+ 
